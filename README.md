@@ -8,6 +8,9 @@ Universidad Nacional del Comahue. Facultad de Informática.
 TODO
 ----
 
-- [] Subir los Trabajos Prácticos
-- [] Aprender a usar GIT
-- [] Rendir el final
+Lista de puntos para completar.
+
+- [ ] Subir los Trabajos Prácticos
+- [ ] Aprender a usar GIT
+- [x] Cursar la materia
+- [ ] Rendir el final
