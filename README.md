@@ -10,7 +10,7 @@ TODO
 
 Lista de puntos para completar.
 
-- [ ] Subir los Trabajos Prácticos
-- [ ] Aprender a usar GIT
+- [x] Subir los Trabajos Prácticos
+- [x] Aprender a usar GIT
 - [x] Cursar la materia
-- [ ] Rendir el final
+- [x] Rendir el final
