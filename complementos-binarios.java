@@ -27,3 +27,31 @@ public static void main (String [] args){
 
 
 }
+public static double procesar(String cadena){
+    //
+    int i , j;
+    double res;
+    boolean parar;
+    res = 0;
+    i = cadena.length()-1;
+    j= 0;
+    parar = false;
+    while (i >= 0 && !parar){
+        if (cadena.charAt(i)=='1'){
+            res = res + (1 * Math.pow(2,j));
+            
+        }else{
+            if (cadena.charAt(i)== '0'){
+                res = res + (0 * Math.pow(2,j));
+            }else{
+                parar = true ;
+                res = -1;
+            }
+                
+        }
+        i = i-1;
+        j = j+1;
+    }
+    return res;
+    
+}
