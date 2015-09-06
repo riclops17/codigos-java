@@ -27,3 +27,28 @@ public static void main(String[] args) {
             a[i] = x;
         }
     } 
+
+ublic static int binarySearch(int []a,int k){
+        //
+        int l,m,r,res;
+        m =0;
+        
+        l =0;
+        r = a.length-1;
+        res = -1;
+        while ((l<=r )&&(k != a [m])){
+            k = (l + r )/2;
+            if (k == a [m]){
+                res = m;
+            }else{
+                if (k< a [m]){
+                    r = m -1;
+                    
+                }else{
+                    l = m + 1;
+                    
+                }
+            }
+        }
+        return res;
+    }
