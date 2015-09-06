@@ -31,8 +31,7 @@ public static void main(String[] args) {
 ublic static int binarySearch(int []a,int k){
         //
         int l,m,r,res;
-        
-        
+        m= 0;
         l =0;
         r = a.length-1;
         res = -1;
