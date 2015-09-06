@@ -65,3 +65,18 @@ public static void bubbleSort(int []a){
         }
         
 }
+
+
+public static void insertionSort(int []a){
+        //
+        int p , j , temp ,x;
+        for ( p =1;p<= a.length-1;p++){
+            temp = a[p];
+            j = p ;
+            while ((j>0)&&(temp< a[j-1])){
+                a[j] = a[j-1];
+                j = j-1;
+            }
+            a[j] = temp;
+        }
+}
