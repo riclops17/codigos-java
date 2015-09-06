@@ -51,3 +51,17 @@ ublic static int binarySearch(int []a,int k){
         }
         return res;
     }
+public static void bubbleSort(int []a){
+        //
+        int i, j,x;
+        for (i=0;i<=a.length-2;i++){
+            for ( j=0;j<= a.length-2 -i;j++){
+                if ( a[j +1]< a[j]){
+                    x = a[j];
+                    a[j]= a[j+1];
+                    a [j+1] = x;
+                }
+            }
+        }
+        
+}
